@@ -3,30 +3,26 @@ package OOP_PTIT;
 import java.util.Scanner;
 
 public class J01007_KIEMTRAFIBO {
+	static long[] a = new long[100];
+
+	public static boolean res(long n) {
+		for (int i = 0; i <= 92; ++i)
+			if (a[i] == n)
+				return true;
+		return false;
+	}
+
 	public static void main(String[] args) {
-		long[] f = new long[93];
-		f[0] = 0;
-		f[1] = 1;
-		for (int i = 2; i <= 92; i++) {
-			f[i] = f[i - 1] + f[i - 2];
-		}
-		Scanner sc = new Scanner(System.in);
-		int t = sc.nextInt();
+		Scanner scanner = new Scanner(System.in);
+		a[0] = 0;
+		a[1] = 1;
+		for (int i = 2; i <= 92; ++i)
+			a[i] = a[i - 1] + a[i - 2];
+		int t = scanner.nextInt();
 		while (t-- > 0) {
-			long n = sc.nextInt();
-			boolean check = false;
-			for (int i = 0; i <= 92; i++) {
-				if (f[i] == n) {
-					check = true;
-					break;
-				}
-				if (f[i] > n)
-					break;
-			}
-			if (check)
-				System.out.println("YES");
-			else
-				System.out.println("NO");
+			long n = scanner.nextLong();
+			System.out.println(res(n) ? "YES" : "NO");
 		}
+		scanner.close();
 	}
 }
