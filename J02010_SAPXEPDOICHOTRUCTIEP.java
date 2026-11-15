@@ -1,4 +1,3 @@
-package OOP_PTIT;
 
 import java.util.Scanner;
 
