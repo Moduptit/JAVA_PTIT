@@ -30,5 +30,6 @@ public class J01010_CATDOI {
 					System.out.println(res);
 			}
 		}
+		sc.close();
 	}
 }

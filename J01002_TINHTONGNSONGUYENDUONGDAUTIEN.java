@@ -11,5 +11,6 @@ public class J01002_TINHTONGNSONGUYENDUONGDAUTIEN {
 			long x = sc.nextInt();
 			System.out.println((x + 1) * x / 2 + "\n");
 		}
+		sc.close();
 	}
 }

@@ -19,5 +19,6 @@ public class J01026_SOCHINHPHUONG {
 			else
 				System.out.println("NO");
 		}
+		sc.close();
 	}
 }

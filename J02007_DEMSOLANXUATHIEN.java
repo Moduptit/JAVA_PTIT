@@ -21,5 +21,6 @@ public class J02007_DEMSOLANXUATHIEN {
 				}
 			}
 		}
+		sc.close();
 	}
 }

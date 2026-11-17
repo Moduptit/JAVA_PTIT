@@ -33,5 +33,6 @@ public class J01013_TONGUOCSO1 {
 			}
 		}
 		System.out.println(sum);
+		sc.close();
 	}
 }

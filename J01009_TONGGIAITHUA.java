@@ -11,5 +11,6 @@ public class J01009_TONGGIAITHUA {
 			s += sum;
 		}
 		System.out.println(s);
+		sc.close();
 	}
 }

@@ -19,6 +19,7 @@ public class J01017_SOLIENKE {
 			else
 				System.out.println("NO");
 		}
+		sc.close();
 	}
 
 }

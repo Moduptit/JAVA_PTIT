@@ -19,5 +19,6 @@ public class J02005_GIAOCUAHAIDAYSO {
 			if (cnt[i] == 2)
 				System.out.print(i + " ");
 		}
+		sc.close();
 	}
 }

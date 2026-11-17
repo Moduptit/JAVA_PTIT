@@ -10,5 +10,6 @@ public class J01005_CHIATAMGIAC {
 			int h = sc.nextInt();
 
 		}
+		sc.close();
 	}
 }

@@ -15,5 +15,6 @@ public class J01006_TINHSOFIBONACCI {
 			}
 			System.out.println(f[n] + "\n");
 		}
+		sc.close();
 	}
 }

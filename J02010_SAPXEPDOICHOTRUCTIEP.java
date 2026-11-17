@@ -23,5 +23,6 @@ public class J02010_SAPXEPDOICHOTRUCTIEP {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 }

@@ -23,6 +23,7 @@ public class J01008_PHANTICHTHUASONGUYENTO {
 				System.out.print(n + "(1)");
 			System.out.println();
 		}
+		sc.close();
 	}
 
 }

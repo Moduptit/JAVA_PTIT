@@ -33,5 +33,6 @@ public class J02004_MANGDOIXUNG {
 				System.out.println("NO");
 
 		}
+		sc.close();
 	}
 }

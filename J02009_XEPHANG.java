@@ -17,5 +17,6 @@ public class J02009_XEPHANG {
 			cur = Math.max(cur, a[i][0]) + a[i][1];
 		}
 		System.out.println(cur);
+		sc.close();
 	}
 }

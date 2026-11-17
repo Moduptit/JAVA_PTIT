@@ -20,5 +20,6 @@ public class J01012_UOCSOCHIAHETCHO2 {
 			System.out.println(cnt);
 
 		}
+		sc.close();
 	}
 }

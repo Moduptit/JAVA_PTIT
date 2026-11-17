@@ -20,5 +20,6 @@ public class J01014_UOCSONGUYENTOLONNHAT {
 			System.out.println(maxP);
 		}
 
+		sc.close();
 	}
 }
