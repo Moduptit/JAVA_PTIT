@@ -27,5 +27,6 @@ public class J01018_SOKHONGLIENKE {
 				System.out.println("NO");
 
 		}
+		sc.close();
 	}
 }

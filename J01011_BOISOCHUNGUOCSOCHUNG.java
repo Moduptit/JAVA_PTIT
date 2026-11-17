@@ -16,5 +16,6 @@ public class J01011_BOISOCHUNGUOCSOCHUNG {
 			long g = gcd(a, b);
 			System.out.println(a * b / g + " " + g);
 		}
+		sc.close();
 	}
 }

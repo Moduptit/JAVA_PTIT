@@ -19,5 +19,6 @@ public class J02006_HOPCUAHAIDAYSO {
 			if (cnt[i] >= 1)
 				System.out.print(i + " ");
 		}
+		sc.close();
 	}
 }

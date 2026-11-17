@@ -29,5 +29,6 @@ public class J02008_BOISONHONHATCUANSONGUYENDUONG {
 			int n = sc.nextInt();
 			System.out.println(f[n]);
 		}
+		sc.close();
 	}
 }

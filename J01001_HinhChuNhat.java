@@ -12,5 +12,6 @@ public class J01001_HinhChuNhat {
 		else {
 			System.out.println((x + y) * 2 + " " + (x * y));
 		}
+		sc.close();
 	}
 }

@@ -19,5 +19,6 @@ public class J01004_SONGUYENTO {
 			else
 				System.out.println("NO\n");
 		}
+		sc.close();
 	}
 }

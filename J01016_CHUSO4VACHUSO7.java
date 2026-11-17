@@ -15,5 +15,6 @@ public class J01016_CHUSO4VACHUSO7 {
 			System.out.println("NO");
 		else
 			System.out.println("YES");
+		sc.close();
 	}
 }

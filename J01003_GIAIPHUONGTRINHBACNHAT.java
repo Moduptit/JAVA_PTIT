@@ -15,5 +15,6 @@ public class J01003_GIAIPHUONGTRINHBACNHAT {
 			double res = (double) -b / a;
 			System.out.println(String.format("%.2f", res));
 		}
+		sc.close();
 	}
 }
