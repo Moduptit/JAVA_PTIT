@@ -22,24 +22,29 @@ class ThiSinh {
     }
 
     public void in() {
-        System.out.printf("%d %s %s %f%n", ma, ten, ns, sum);
+        System.out.printf("%d %s %s %.1f%n", ma, ten, ns, sum);
     }
-    // public float compareTo(ThiSinh other){
 
-    // }
 }
 
 public class J05009 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
-        sc.nextLine();
-        ArrayList<ThiSinh> ls = new ArrayList<>();
-        while (t-- > 0) {
-            ThiSinh a = new ThiSinh();
-            a.nhap(sc);
-            ls.add(a);
+        int n = Integer.parseInt(sc.nextLine());
+        ThiSinh[] a = new ThiSinh[n];
+        float max = -1;
+        for (int i = 0; i < n; i++) {
+            a[i] = new ThiSinh();
+            a[i].nhap(sc);
+            if (a[i].sum > max)
+                max = a[i].sum;
         }
+        for (ThiSinh x : a) {
+            if (x.sum == max) {
+                x.in();
+            }
+        }
+
         sc.close();
     }
 }
